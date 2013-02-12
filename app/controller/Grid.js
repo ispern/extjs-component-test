@@ -14,10 +14,6 @@ Ext.define('MyApp.controller.Grid', {
 
     refs: [
         {
-            selector: 'mytreepanel',
-            ref: 'tree'
-        },
-        {
             selector: 'mygridpanel',
             ref: 'grid'
         }
@@ -28,27 +24,27 @@ Ext.define('MyApp.controller.Grid', {
         var me = this;
 
         me.control({
-            'mytreepanel': {
-                select: me.show
+            'mygridpanel': {
+                doLoad: me.show
             }
         });
     },
 
-    show: function(tree, record) {
+    show: function(id) {
 
         var me = this,
             store = me.getGrid().getStore(),
             url;
 
-        switch(record.getId()) {
+        switch(id) {
             case 1:
-                url = 'data/grid1.json';
+                url = '/data/grid1.json';
                 break;
             case 2:
-                url = 'data/grid2.json';
+                url = '/data/grid2.json';
                 break;
             case 3:
-                url = 'data/grid3.json';
+                url = '/data/grid3.json';
                 break;
 
         }

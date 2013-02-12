@@ -22,24 +22,21 @@ Ext.application({
             renderTo: Ext.getBody(),
             text    : 'Menu1',
             handler : function() {
-                grid.getStore().getProxy().url = '../../data/grid1.json';
-                grid.getStore().load();
+                grid.fireEvent('doLoad', 1);
             }
         });
         Ext.widget('button', {
             renderTo: Ext.getBody(),
             text    : 'Menu2',
             handler : function() {
-                grid.getStore().getProxy().url = '../../data/grid2.json';
-                grid.getStore().load();
+                grid.fireEvent('doLoad', 2);
             }
         });
         Ext.widget('button', {
             renderTo: Ext.getBody(),
             text    : 'Menu3',
             handler : function() {
-                grid.getStore().getProxy().url = '../../data/grid3.json';
-                grid.getStore().load();
+                grid.fireEvent('doLoad', 3);
             }
         });
         grid = Ext.widget('mygridpanel', {
