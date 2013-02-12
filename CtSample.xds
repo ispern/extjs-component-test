@@ -1,0 +1,75 @@
+{
+    "name": "CtSample",
+    "settings": {
+        "urlPrefix": "",
+        "spacesToIndent": 4,
+        "exportPath": "",
+        "sdkPath": "",
+        "lineEnding": "LF",
+        "genTimestamps": false,
+        "cacheBust": false
+    },
+    "xdsVersion": "2.1.0",
+    "xdsBuild": 678,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000498,
+    "framework": "ext41",
+    "topInstanceFileMap": {
+        "fa4f83da-0caa-4103-b2b3-7fa106e9e42a": {
+            "paths": [
+                "metadata/view/MyViewport",
+                "app/view/override/MyViewport.js",
+                "app/view/MyViewport.js",
+                "app/view/Viewport.js"
+            ],
+            "className": "MyViewport"
+        },
+        "52a04df0-ba76-4c86-89df-3ed66814353c": {
+            "paths": [
+                "metadata/view/MyContainer",
+                "app/view/override/MyContainer.js",
+                "app/view/MyContainer.js"
+            ],
+            "className": "MyContainer"
+        },
+        "cb9b9c5a-ac3a-432e-be9b-b4238572ea2d": {
+            "paths": [
+                "metadata/view/MyTreePanel",
+                "app/view/override/MyTreePanel.js",
+                "app/view/MyTreePanel.js"
+            ],
+            "className": "MyTreePanel"
+        },
+        "1d008c8b-3728-4098-98f5-1feef6d10789": {
+            "paths": [
+                "metadata/view/MyGridPanel",
+                "app/view/override/MyGridPanel.js",
+                "app/view/MyGridPanel.js"
+            ],
+            "className": "MyGridPanel"
+        },
+        "fc269a2c-ea80-41ee-b561-30a2da6090a7": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "fa4f83da-0caa-4103-b2b3-7fa106e9e42a",
+            "52a04df0-ba76-4c86-89df-3ed66814353c",
+            "cb9b9c5a-ac3a-432e-be9b-b4238572ea2d",
+            "1d008c8b-3728-4098-98f5-1feef6d10789"
+        ],
+        "store": [],
+        "controller": [],
+        "model": [],
+        "resource": [
+            "fc269a2c-ea80-41ee-b561-30a2da6090a7"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

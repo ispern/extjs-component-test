@@ -1,0 +1,20 @@
+{
+    "type": "application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "views": [
+            "MyViewport",
+            "MyContainer",
+            "MyTreePanel",
+            "MyGridPanel"
+        ],
+        "autoCreateViewport": true,
+        "name": "MyApp"
+    },
+    "id": "ExtBox1-ext-gen1587",
+    "designerId": "application"
+}

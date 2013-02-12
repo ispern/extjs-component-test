@@ -1,0 +1,19 @@
+{
+    "type": "container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MyContainer",
+        "designer|userAlias": "mycontainer1",
+        "height": 75,
+        "html": [
+            "    <h1>My Application</h1>"
+        ],
+        "styleHtmlContent": true
+    },
+    "id": "ExtBox1-ext-gen2233",
+    "designerId": "52a04df0-ba76-4c86-89df-3ed66814353c"
+}
