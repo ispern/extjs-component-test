@@ -42,13 +42,13 @@ Ext.define('MyApp.controller.Grid', {
 
         switch(record.getId()) {
             case 1:
-                url = 'data/grid1.json';
+                url = '/data/grid1.json';
                 break;
             case 2:
-                url = 'data/grid2.json';
+                url = '/data/grid2.json';
                 break;
             case 3:
-                url = 'data/grid3.json';
+                url = '/data/grid3.json';
                 break;
 
         }
