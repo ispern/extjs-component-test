@@ -1,0 +1,9 @@
+{
+    "items": [
+        {"string": "grid1", "number": 1, "date": "2013/1/1", "bool": true},
+        {"string": "grid1", "number": 2, "date": "2013/1/2", "bool": false},
+        {"string": "grid1", "number": 3, "date": "2013/1/3", "bool": true},
+        {"string": "grid1", "number": 4, "date": "2013/1/4", "bool": true},
+        {"string": "grid1", "number": 5, "date": "2013/1/5", "bool": false}
+    ]
+}

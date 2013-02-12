@@ -16,6 +16,10 @@ Ext.define('MyApp.controller.Grid', {
         {
             selector: 'mytreepanel',
             ref: 'tree'
+        },
+        {
+            selector: 'mygridpanel',
+            ref: 'grid'
         }
     ],
 
@@ -25,12 +29,31 @@ Ext.define('MyApp.controller.Grid', {
 
         me.control({
             'mytreepanel': {
-                doLoadGrid: me.show
+                select: me.show
             }
         });
     },
 
-    show: function() {
-        console.log('doLoadGrid');
+    show: function(tree, record) {
+
+        var me = this,
+            store = me.getGrid().getStore(),
+            url;
+
+        switch(record.getId()) {
+            case 1:
+                url = 'data/grid1.json';
+                break;
+            case 2:
+                url = 'data/grid2.json';
+                break;
+            case 3:
+                url = 'data/grid3.json';
+                break;
+
+        }
+
+        store.getProxy().url = url;
+        store.load();
     }
 });

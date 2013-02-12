@@ -18,7 +18,7 @@ Ext.define('MyApp.model.Menu', {
 
     proxy: {
         type: 'ajax',
-        url: './test/ct/mytreepanel/menu.json',
+        url: 'data/menu.json',
         reader: {
             'type': 'json',
             'root': 'items'

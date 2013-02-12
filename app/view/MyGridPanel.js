@@ -5,9 +5,13 @@ Ext.define('MyApp.view.MyGridPanel', {
     title: 'My Grid Panel',
 
     initComponent: function() {
+
         var me = this;
 
         Ext.applyIf(me, {
+
+            store: 'Grid',
+
             columns: [
                 {
                     xtype: 'gridcolumn',

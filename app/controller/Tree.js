@@ -34,6 +34,6 @@ Ext.define('MyApp.controller.Tree', {
 
         var me = this;
 
-        me.getTree().fireEvent('doLoadGrid', arguments);
+
     }
 });

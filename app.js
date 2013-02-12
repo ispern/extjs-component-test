@@ -5,15 +5,18 @@ Ext.Loader.setConfig({
 Ext.application({
 
     controllers: [
-        'Tree'
+        'Tree',
+        'Grid'
     ],
 
     models: [
-        'Menu'
+        'Menu',
+        'Grid'
     ],
 
     stores: [
-        'Menus'
+        'Menus',
+        'Grid'
     ],
 
     views: [
