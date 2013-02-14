@@ -21,6 +21,7 @@ Ext.define('MyApp.model.Grid', {
 
     proxy: {
         type: 'ajax',
+        url: '/data/grid1.json',
         reader: {
             root: 'items'
         }
